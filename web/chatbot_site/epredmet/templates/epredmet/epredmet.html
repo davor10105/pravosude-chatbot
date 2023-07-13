@@ -1,0 +1,246 @@
+{% load static %}
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://e-predmet.pravosudje.hr/ -->
+<html lang="hr" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>e-Predmet</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <link rel="shortcut icon" href="https://e-predmet.pravosudje.hr/favicon.ico">
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana" /> -->
+
+    <link rel="stylesheet" href="{% static 'epredmet/style.css' %}">
+    <link rel="stylesheet" href="{% static 'epredmet/mobile.css' %}">
+    <link rel="stylesheet" href="{% static 'epredmet/print.css' %}" type="text/css" media="print">
+    <link rel="stylesheet" href="{% static 'epredmet/ak-extras.css' %}" media="screen">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if IE]>
+    <style> input[type="text"]{ padding-top:7px; } </style>
+    <![endif]-->
+    <script type="text/javascript" src="{% static 'epredmet/ak-combined-lib.js' %}"></script><style type="text/css">input.styled { display: none; } select.styled { position: relative; width: 190px; opacity: 0; filter: alpha(opacity=0); z-index: 5; } .disabled { opacity: 0.5; filter: alpha(opacity=50); }</style>
+    <script type="text/javascript" src="{% static 'epredmet/functions.js' %}"></script>
+    <script type="text/javascript" src="{% static 'epredmet/moj.js' %}"></script>
+
+    <!-- recaptcha skin -->
+    <script type="text/javascript">
+        var RecaptchaOptions = {
+            theme: 'clean'
+        };
+    </script>
+</head>
+
+<body onload="initVFPP()" data-new-gr-c-s-check-loaded="14.1113.0" data-gr-ext-installed="" style="font-size: 12pt; font-family: Verdana;">
+
+    <div id="rasa-chat-widget" data-websocket-url="http://localhost:8569/socket.io" data-avatar-background="#fc604e", data-primary="#fc604e", data-primary-highlight="#fc604e"></div>  
+    <script src="https://unpkg.com/@rasahq/rasa-chat" type="application/javascript"></script>
+    
+    <div class="head-mprh-logo">
+        <img id="logo" src="{% static 'epredmet/mprhiu_logo_hr.png' %}" alt="Ministarstvo pravosuđa i uprave Republike Hrvatske">
+    </div>
+
+    <section id="content">
+        <div class="centered">
+            <div class="main">
+
+                <div class="speedbar">
+                    <div id="crumb1" class="speedbar-nav"> <a href="https://e-predmet.pravosudje.hr/">Predmet</a> › <a href="https://e-predmet.pravosudje.hr/#">pretraga</a></div>
+                </div>
+
+                <!-- content div -->
+                <div class="content-gird-no-border">
+
+                    
+<style>
+                    .alertBart {
+                        padding: 20px;
+                        background-color: #f44336;
+                        color: white;
+                    }
+
+                    .closebtnBart {
+                        margin-left: 15px;
+                        color: white;
+                        font-weight: bold;
+                        float: right;
+                        font-size: 22px;
+                        line-height: 20px;
+                        cursor: pointer;
+                        transition: 0.3s;
+                    }
+
+                    .closebtnBart:hover {
+                        color: black;
+                    }
+</style>      
+
+<div class="napomena">
+    <table style="width:100%">
+        <tbody><tr>
+            <td style="width: 40px; vertical-align: top">
+                <div id="nap-img"><img height="32px" width="32px" src="{% static 'epredmet/alert-napomena.png' %}"></div>
+            </td>
+            <td>
+                <div id="nap-txt"><!--span style="color: red;">Zbog najavljenih radova na serverima, u subotu (23.07.2022.) mogući su prekidi u radu sustava u periodu od 13:00 do 19:00 sati.</span><br/><br/-->
+                    Kroz e-Predmet moguće je pretražiti predmete sudova koji koriste eSpis sustav. Više podataka o eSpisu potražite na poveznici
+                    <a style="color:#FF0000; text-decoration: underline; white-space: nowrap;" href="https://e-predmet.pravosudje.hr/?q=o">O e-Predmetu</a>.
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+
+<div class="form">
+    <form method="get" id="customForm" action="https://e-predmet.pravosudje.hr/" autocomplete="off">
+
+        <h5 style="color: #FF0000;">Obavezno popuniti sva polja.</h5>
+        <div class="c-element">
+            <div class="elem">
+                <label>Sud:</label>
+                <div class="indent">
+                    <select class="chzn-select medium-select select chzn-done" name="sud" tabindex="-1" id="sel8D6" style="display: none;">
+                        <option value="577">Općinski građanski sud u Zagrebu</option><option value="3">Općinski kazneni sud u Zagrebu</option><option value="222">Općinski prekršajni sud u Splitu</option><option value="229">Općinski prekršajni sud u Zagrebu</option><option value="5851">Općinski radni sud u Zagrebu</option><option value="5103">Općinski sud u Belom Manastiru</option><option value="5095">Općinski sud u Benkovcu</option><option value="5063">Općinski sud u Bjelovaru</option><option value="5129">Općinski sud u Bujama - Buie</option><option value="5141">Općinski sud u Čakovcu</option><option value="5069">Općinski sud u Crikvenici</option><option value="5105">Općinski sud u Đakovu</option><option value="5065">Općinski sud u Daruvaru</option><option value="5071">Općinski sud u Delnicama</option><option value="5136">Općinski sud u Dubrovniku</option><option value="5038">Općinski sud u Glini</option><option value="5079">Općinski sud u Gospiću</option><option value="5040">Općinski sud u Hrvatskoj Kostajnici</option><option value="5117">Općinski sud u Imotskom</option><option value="5024">Općinski sud u Ivanić Gradu</option><option value="5025">Općinski sud u Jastrebarskom</option><option value="5048">Općinski sud u Karlovcu</option><option value="5110">Općinski sud u Kninu</option><option value="5060">Općinski sud u Koprivnici</option><option value="5137">Općinski sud u Korčuli</option><option value="5033">Općinski sud u Krapini</option><option value="5061">Općinski sud u Križevcima</option><option value="5072">Općinski sud u Krku</option><option value="5041">Općinski sud u Kutini</option><option value="5131">Općinski sud u Labinu</option><option value="5119">Općinski sud u Makarskoj</option><option value="5073">Općinski sud u Malom Lošinju</option><option value="5138">Općinski sud u Metkoviću</option><option value="5106">Općinski sud u Našicama</option><option value="5092">Općinski sud u Novoj Gradišci</option><option value="5144">Općinski sud u Novom Zagrebu</option><option value="5049">Općinski sud u Ogulinu</option><option value="5074">Općinski sud u Opatiji</option><option value="5107">Općinski sud u Osijeku</option><option value="5100">Općinski sud u Pagu</option><option value="5132">Općinski sud u Pazinu</option><option value="5133">Općinski sud u Poreču - Parenzio</option><option value="5090">Općinski sud u Požegi</option><option value="21">Općinski sud u Puli - Pola</option><option value="5075">Općinski sud u Rabu</option><option value="8">Općinski sud u Rijeci</option><option value="5134">Općinski sud u Rovinju - Rovigno</option><option value="5026">Općinski sud u Samoboru</option><option value="5143">Općinski sud u Sesvetama</option><option value="5111">Općinski sud u Šibeniku</option><option value="5121">Općinski sud u Sinju</option><option value="5044">Općinski sud u Sisku</option><option value="5087">Općinski sud u Slatini</option><option value="5093">Općinski sud u Slavonskom Brodu</option><option value="7">Općinski sud u Splitu</option><option value="5123">Općinski sud u Starom Gradu</option><option value="5124">Općinski sud u Supetru</option><option value="5125">Općinski sud u Trogiru</option><option value="5108">Općinski sud u Valpovu</option><option value="5057">Općinski sud u Varaždinu</option><option value="5028">Općinski sud u Velikoj Gorici</option><option value="5115">Općinski sud u Vinkovcima</option><option value="6">Općinski sud u Virovitici</option><option value="5029">Općinski sud u Vrbovcu</option><option value="5">Općinski sud u Vukovaru</option><option value="5035">Općinski sud u Zaboku</option><option value="4">Općinski sud u Zadru</option><option value="2">Općinski sud u Zaprešiću</option><option value="5036">Općinski sud u Zlataru</option><option value="1">Općinski sud u Županji</option><option value="5145">Trgovački sud u Bjelovaru</option><option value="5146">Trgovački sud u Dubrovniku</option><option value="5147">Trgovački sud u Karlovcu</option><option value="5148">Trgovački sud u Osijeku</option><option value="18">Trgovački sud u Pazinu</option><option value="17">Trgovački sud u Rijeci</option><option value="5151">Trgovački sud u Šibeniku</option><option value="5154">Trgovački sud u Sisku</option><option value="5150">Trgovački sud u Slavonskom Brodu</option><option value="114">Trgovački sud u Splitu</option><option value="5152">Trgovački sud u Varaždinu</option><option value="14">Trgovački sud u Zadru</option><option value="13">Trgovački sud u Zagrebu</option><option value="5854">Upravni sud u Osijeku</option><option value="5852">Upravni sud u Rijeci</option><option value="5856">Upravni sud u Splitu</option><option value="5855">Upravni sud u Zagrebu</option><option value="16">Visoki kazneni sud Republike Hrvatske</option><option value="110">Visoki prekršajni sud Republike Hrvatske</option><option value="19">Visoki trgovački sud Republike Hrvatske</option><option value="5853">Visoki upravni sud Republike Hrvatske</option><option value="20">Vrhovni sud Republike Hrvatske</option><option value="5062">Županijski sud u Bjelovaru</option><option value="5140">Županijski sud u Čakovcu</option><option value="5135">Županijski sud u Dubrovniku</option><option value="5077">Županijski sud u Gospiću</option><option value="5046">Županijski sud u Karlovcu</option><option value="5058">Županijski sud u Koprivnici</option><option value="5102">Županijski sud u Osijeku</option><option value="5088">Županijski sud u Požegi</option><option value="5128">Županijski sud u Puli - Pola</option><option value="5068">Županijski sud u Rijeci</option><option value="11">Županijski sud u Šibeniku</option><option value="12">Županijski sud u Sisku</option><option value="5091">Županijski sud u Slavonskom Brodu</option><option value="5116">Županijski sud u Splitu</option><option value="5053">Županijski sud u Varaždinu</option><option value="5022">Županijski sud u Velikoj Gorici</option><option value="5084">Županijski sud u Virovitici</option><option value="10">Županijski sud u Vukovaru</option><option value="5094">Županijski sud u Zadru</option><option value="9">Županijski sud u Zagrebu</option><option value="5030">Županijski sud u Zlataru</option>                    </select><div id="sel8D6_chzn" class="chzn-container chzn-container-single" style="width: 482px;" onfocus="myFocusMojSpan(this)"><a href="javascript:void(0)" class="chzn-single" tabindex="1" style="font-size: 12pt; font-family: Verdana;"><span>Općinski građanski sud u Zagrebu</span><div><b></b></div></a><div class="chzn-drop" style="left: -9000px; width: 480px; top: 30px; font-size: 12pt; font-family: Verdana;"><div class="chzn-search"><input type="text" autocomplete="off" tabindex="-1" style="width: 450px;"></div><ul class="chzn-results"><li id="sel8D6_chzn_o_0" class="active-result result-selected" style="">Općinski građanski sud u Zagrebu</li><li id="sel8D6_chzn_o_1" class="active-result" style="">Općinski kazneni sud u Zagrebu</li><li id="sel8D6_chzn_o_2" class="active-result" style="">Općinski prekršajni sud u Splitu</li><li id="sel8D6_chzn_o_3" class="active-result" style="">Općinski prekršajni sud u Zagrebu</li><li id="sel8D6_chzn_o_4" class="active-result" style="">Općinski radni sud u Zagrebu</li><li id="sel8D6_chzn_o_5" class="active-result" style="">Općinski sud u Belom Manastiru</li><li id="sel8D6_chzn_o_6" class="active-result" style="">Općinski sud u Benkovcu</li><li id="sel8D6_chzn_o_7" class="active-result" style="">Općinski sud u Bjelovaru</li><li id="sel8D6_chzn_o_8" class="active-result" style="">Općinski sud u Bujama - Buie</li><li id="sel8D6_chzn_o_9" class="active-result" style="">Općinski sud u Čakovcu</li><li id="sel8D6_chzn_o_10" class="active-result" style="">Općinski sud u Crikvenici</li><li id="sel8D6_chzn_o_11" class="active-result" style="">Općinski sud u Đakovu</li><li id="sel8D6_chzn_o_12" class="active-result" style="">Općinski sud u Daruvaru</li><li id="sel8D6_chzn_o_13" class="active-result" style="">Općinski sud u Delnicama</li><li id="sel8D6_chzn_o_14" class="active-result" style="">Općinski sud u Dubrovniku</li><li id="sel8D6_chzn_o_15" class="active-result" style="">Općinski sud u Glini</li><li id="sel8D6_chzn_o_16" class="active-result" style="">Općinski sud u Gospiću</li><li id="sel8D6_chzn_o_17" class="active-result" style="">Općinski sud u Hrvatskoj Kostajnici</li><li id="sel8D6_chzn_o_18" class="active-result" style="">Općinski sud u Imotskom</li><li id="sel8D6_chzn_o_19" class="active-result" style="">Općinski sud u Ivanić Gradu</li><li id="sel8D6_chzn_o_20" class="active-result" style="">Općinski sud u Jastrebarskom</li><li id="sel8D6_chzn_o_21" class="active-result" style="">Općinski sud u Karlovcu</li><li id="sel8D6_chzn_o_22" class="active-result" style="">Općinski sud u Kninu</li><li id="sel8D6_chzn_o_23" class="active-result" style="">Općinski sud u Koprivnici</li><li id="sel8D6_chzn_o_24" class="active-result" style="">Općinski sud u Korčuli</li><li id="sel8D6_chzn_o_25" class="active-result" style="">Općinski sud u Krapini</li><li id="sel8D6_chzn_o_26" class="active-result" style="">Općinski sud u Križevcima</li><li id="sel8D6_chzn_o_27" class="active-result" style="">Općinski sud u Krku</li><li id="sel8D6_chzn_o_28" class="active-result" style="">Općinski sud u Kutini</li><li id="sel8D6_chzn_o_29" class="active-result" style="">Općinski sud u Labinu</li><li id="sel8D6_chzn_o_30" class="active-result" style="">Općinski sud u Makarskoj</li><li id="sel8D6_chzn_o_31" class="active-result" style="">Općinski sud u Malom Lošinju</li><li id="sel8D6_chzn_o_32" class="active-result" style="">Općinski sud u Metkoviću</li><li id="sel8D6_chzn_o_33" class="active-result" style="">Općinski sud u Našicama</li><li id="sel8D6_chzn_o_34" class="active-result" style="">Općinski sud u Novoj Gradišci</li><li id="sel8D6_chzn_o_35" class="active-result" style="">Općinski sud u Novom Zagrebu</li><li id="sel8D6_chzn_o_36" class="active-result" style="">Općinski sud u Ogulinu</li><li id="sel8D6_chzn_o_37" class="active-result" style="">Općinski sud u Opatiji</li><li id="sel8D6_chzn_o_38" class="active-result" style="">Općinski sud u Osijeku</li><li id="sel8D6_chzn_o_39" class="active-result" style="">Općinski sud u Pagu</li><li id="sel8D6_chzn_o_40" class="active-result" style="">Općinski sud u Pazinu</li><li id="sel8D6_chzn_o_41" class="active-result" style="">Općinski sud u Poreču - Parenzio</li><li id="sel8D6_chzn_o_42" class="active-result" style="">Općinski sud u Požegi</li><li id="sel8D6_chzn_o_43" class="active-result" style="">Općinski sud u Puli - Pola</li><li id="sel8D6_chzn_o_44" class="active-result" style="">Općinski sud u Rabu</li><li id="sel8D6_chzn_o_45" class="active-result" style="">Općinski sud u Rijeci</li><li id="sel8D6_chzn_o_46" class="active-result" style="">Općinski sud u Rovinju - Rovigno</li><li id="sel8D6_chzn_o_47" class="active-result" style="">Općinski sud u Samoboru</li><li id="sel8D6_chzn_o_48" class="active-result" style="">Općinski sud u Sesvetama</li><li id="sel8D6_chzn_o_49" class="active-result" style="">Općinski sud u Šibeniku</li><li id="sel8D6_chzn_o_50" class="active-result" style="">Općinski sud u Sinju</li><li id="sel8D6_chzn_o_51" class="active-result" style="">Općinski sud u Sisku</li><li id="sel8D6_chzn_o_52" class="active-result" style="">Općinski sud u Slatini</li><li id="sel8D6_chzn_o_53" class="active-result" style="">Općinski sud u Slavonskom Brodu</li><li id="sel8D6_chzn_o_54" class="active-result" style="">Općinski sud u Splitu</li><li id="sel8D6_chzn_o_55" class="active-result" style="">Općinski sud u Starom Gradu</li><li id="sel8D6_chzn_o_56" class="active-result" style="">Općinski sud u Supetru</li><li id="sel8D6_chzn_o_57" class="active-result" style="">Općinski sud u Trogiru</li><li id="sel8D6_chzn_o_58" class="active-result" style="">Općinski sud u Valpovu</li><li id="sel8D6_chzn_o_59" class="active-result" style="">Općinski sud u Varaždinu</li><li id="sel8D6_chzn_o_60" class="active-result" style="">Općinski sud u Velikoj Gorici</li><li id="sel8D6_chzn_o_61" class="active-result" style="">Općinski sud u Vinkovcima</li><li id="sel8D6_chzn_o_62" class="active-result" style="">Općinski sud u Virovitici</li><li id="sel8D6_chzn_o_63" class="active-result" style="">Općinski sud u Vrbovcu</li><li id="sel8D6_chzn_o_64" class="active-result" style="">Općinski sud u Vukovaru</li><li id="sel8D6_chzn_o_65" class="active-result" style="">Općinski sud u Zaboku</li><li id="sel8D6_chzn_o_66" class="active-result" style="">Općinski sud u Zadru</li><li id="sel8D6_chzn_o_67" class="active-result" style="">Općinski sud u Zaprešiću</li><li id="sel8D6_chzn_o_68" class="active-result" style="">Općinski sud u Zlataru</li><li id="sel8D6_chzn_o_69" class="active-result" style="">Općinski sud u Županji</li><li id="sel8D6_chzn_o_70" class="active-result" style="">Trgovački sud u Bjelovaru</li><li id="sel8D6_chzn_o_71" class="active-result" style="">Trgovački sud u Dubrovniku</li><li id="sel8D6_chzn_o_72" class="active-result" style="">Trgovački sud u Karlovcu</li><li id="sel8D6_chzn_o_73" class="active-result" style="">Trgovački sud u Osijeku</li><li id="sel8D6_chzn_o_74" class="active-result" style="">Trgovački sud u Pazinu</li><li id="sel8D6_chzn_o_75" class="active-result" style="">Trgovački sud u Rijeci</li><li id="sel8D6_chzn_o_76" class="active-result" style="">Trgovački sud u Šibeniku</li><li id="sel8D6_chzn_o_77" class="active-result" style="">Trgovački sud u Sisku</li><li id="sel8D6_chzn_o_78" class="active-result" style="">Trgovački sud u Slavonskom Brodu</li><li id="sel8D6_chzn_o_79" class="active-result" style="">Trgovački sud u Splitu</li><li id="sel8D6_chzn_o_80" class="active-result" style="">Trgovački sud u Varaždinu</li><li id="sel8D6_chzn_o_81" class="active-result" style="">Trgovački sud u Zadru</li><li id="sel8D6_chzn_o_82" class="active-result" style="">Trgovački sud u Zagrebu</li><li id="sel8D6_chzn_o_83" class="active-result" style="">Upravni sud u Osijeku</li><li id="sel8D6_chzn_o_84" class="active-result" style="">Upravni sud u Rijeci</li><li id="sel8D6_chzn_o_85" class="active-result" style="">Upravni sud u Splitu</li><li id="sel8D6_chzn_o_86" class="active-result" style="">Upravni sud u Zagrebu</li><li id="sel8D6_chzn_o_87" class="active-result" style="">Visoki kazneni sud Republike Hrvatske</li><li id="sel8D6_chzn_o_88" class="active-result" style="">Visoki prekršajni sud Republike Hrvatske</li><li id="sel8D6_chzn_o_89" class="active-result" style="">Visoki trgovački sud Republike Hrvatske</li><li id="sel8D6_chzn_o_90" class="active-result" style="">Visoki upravni sud Republike Hrvatske</li><li id="sel8D6_chzn_o_91" class="active-result" style="">Vrhovni sud Republike Hrvatske</li><li id="sel8D6_chzn_o_92" class="active-result" style="">Županijski sud u Bjelovaru</li><li id="sel8D6_chzn_o_93" class="active-result" style="">Županijski sud u Čakovcu</li><li id="sel8D6_chzn_o_94" class="active-result" style="">Županijski sud u Dubrovniku</li><li id="sel8D6_chzn_o_95" class="active-result" style="">Županijski sud u Gospiću</li><li id="sel8D6_chzn_o_96" class="active-result" style="">Županijski sud u Karlovcu</li><li id="sel8D6_chzn_o_97" class="active-result" style="">Županijski sud u Koprivnici</li><li id="sel8D6_chzn_o_98" class="active-result" style="">Županijski sud u Osijeku</li><li id="sel8D6_chzn_o_99" class="active-result" style="">Županijski sud u Požegi</li><li id="sel8D6_chzn_o_100" class="active-result" style="">Županijski sud u Puli - Pola</li><li id="sel8D6_chzn_o_101" class="active-result" style="">Županijski sud u Rijeci</li><li id="sel8D6_chzn_o_102" class="active-result" style="">Županijski sud u Šibeniku</li><li id="sel8D6_chzn_o_103" class="active-result" style="">Županijski sud u Sisku</li><li id="sel8D6_chzn_o_104" class="active-result" style="">Županijski sud u Slavonskom Brodu</li><li id="sel8D6_chzn_o_105" class="active-result" style="">Županijski sud u Splitu</li><li id="sel8D6_chzn_o_106" class="active-result" style="">Županijski sud u Varaždinu</li><li id="sel8D6_chzn_o_107" class="active-result" style="">Županijski sud u Velikoj Gorici</li><li id="sel8D6_chzn_o_108" class="active-result" style="">Županijski sud u Virovitici</li><li id="sel8D6_chzn_o_109" class="active-result" style="">Županijski sud u Vukovaru</li><li id="sel8D6_chzn_o_110" class="active-result" style="">Županijski sud u Zadru</li><li id="sel8D6_chzn_o_111" class="active-result" style="">Županijski sud u Zagrebu</li><li id="sel8D6_chzn_o_112" class="active-result" style="">Županijski sud u Zlataru</li></ul></div></div>
+                </div>
+            </div>
+
+            <div class="elem">
+                <label>Predmet: </label>
+                <div class="indent">
+                    <table class="table_form">
+                        <tbody><tr>
+                            <td><input type="text" id="unos" name="upisnik" class="upisnik" tabindex="2" onfocus="myFocus(this)" onblur="myBluer(this)" style="font-size: 12pt; font-family: Verdana;"></td>
+                            <td>
+                                <p class="guliver"> - </p>
+                            </td>
+                            <td><input type="text" name="predmet" class="polje5" id="number1" maxlength="6" size="6" tabindex="3" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)" style="font-size: 12pt; font-family: Verdana;"></td>
+                            <td>
+                                <p class="guliver"> / </p>
+                            </td>
+                            <td><input type="text" name="godina" class="polje4" id="number2" maxlength="4" size="6" tabindex="4" onfocus="myFocus(this)" onblur="myBluer(this)" style="font-size: 12pt; font-family: Verdana;"></td>
+                        </tr>
+                    </tbody></table>
+                </div>
+            </div>
+            <div class="elem">
+                <div class="indent">
+                    <p class="italic">* Primjer: K - 123 / 2012</p>
+                </div>
+            </div>
+
+            <div class="elem">
+                <label>Captcha:</label>
+                <div class="indent">
+                    <img id="captcha" src="{% static 'epredmet/securimage_show.php' %}" alt="CAPTCHA Image">
+                </div>
+                <div class="indent">
+                    Pretipkajte gornji Captcha tekst:
+                    <input type="text" name="captcha_code" size="6" maxlength="6" tabindex="5" onfocus="myFocus(this)" onblur="myBluer(this)" style="font-size: 12pt; font-family: Verdana;">
+                    (Nisu bitna velika/mala slova)
+                </div>
+            </div>
+        </div>
+
+        <div class="c-element">
+            <!-- <input type="submit" value="Traži" class="button-a red" tabindex="5" accesskey="t" /> -->
+            <button id="gumbTrazi" class="gumb" tabindex="6" accesskey="t" onfocus="myFocusButton(this)" onblur="myBluerButton(this)" style="font-size: 12pt;"><span style="text-decoration: underline">T</span>raži</button>
+        </div>
+
+    </form>
+</div>
+<br><a tabindex="7" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)" style="text-decoration: underline" href="https://e-predmet.pravosudje.hr/?q=obavijest-o-unifikaciji-poslovnih-brojeva-predmeta">Obavijest o unifikaciji nazivlja poslovnih brojeva predmeta</a>
+                </div>
+
+                <!-- end main -->
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="sidebar">
+                <span class="categories" style="border-right-width: 0px;"><span id="cattext">e-Predmet</span></span>
+                <ul class="menu">
+                    <li>
+                        <ul class="expand">
+                            <li>
+                                <a id="menuPretraga" href="https://e-predmet.pravosudje.hr/?q=pretraga" tabindex="100" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">
+                                    <span class="files icon" accesskey="p">
+                                        <span style="text-decoration: underline">P</span>retraga predmeta
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e-predmet.pravosudje.hr/?q=o" tabindex="101" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">
+                                    <span class="invoice icon" accesskey="o">
+                                        <span style="text-decoration: underline">O</span> e-Predmetu
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e-predmet.pravosudje.hr/?q=izjava-o-pristupacnosti" tabindex="102" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">
+                                    <span class="invoice icon" accesskey="i">
+                                        <span style="text-decoration: underline">I</span>zjava o pristupačnosti
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://mpu.gov.hr/" accesskey="m" tabindex="103" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">
+                                    <span class="forms icon">
+                                        <span style="text-decoration: underline">m</span>pu.gov.hr
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="mail">
+                    <img src="{% static 'epredmet/contact.png' %}" accesskey="k"> <span style="text-decoration: underline">K</span>ontakt mail:<br>
+                    <a class="show" href="mailto:e-predmet@pravosudje.hr" target="_blank" tabindex="104" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">e-predmet@pravosudje.hr</a>
+                </div>
+                <div style="display: block; text-align: center; padding: 35px 0 10px 0;">
+                    <img src="{% static 'epredmet/eueu.png' %}" alt="Europska unij">
+                </div>
+
+                <div class="mail" style="color: #fff; font-size: 10pt">
+                    Veličina slova:
+                    <a id="vsId1" onclick="postaviVelicinuFonta(10)" onkeyup="mojonkeyup(event)" style="color: #fff; font-size: 12pt" tabindex="105" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">A</a>
+                    <a id="vsId2" onclick="postaviVelicinuFonta(20)" onkeyup="mojonkeyup(event)" style="color: #fff; font-size: 14pt" tabindex="106" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">A</a>
+                    <a id="vsId3" onclick="postaviVelicinuFonta(30)" onkeyup="mojonkeyup(event)" style="color: #fff; font-size: 16pt" tabindex="107" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">A</a>
+                </div>
+
+                <div class="mail" style="color: #fff; font-size: 10pt">
+                    Vrsta slova:
+                    <select id="vrstaFonta" onchange="postaviVrstuFonta(value)" tabindex="108" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)">
+                        <option value="Verdana">Verdana</option>
+                        <option value="Helvetica">Helvetica</option>
+                        <option value="Arial">Arial</option>
+                    </select>
+                </div>
+
+                <div class="mail" style="color: #fff; font-size: 10pt; margin-bottom: 10px">
+                    <a id="ppId1" onclick="prilagodbaPristupacnosti()" onkeyup="mojonkeyup(event)" style="color: #fff" tabindex="109" onfocus="myFocusMenu(this)" onblur="myBluerMenu(this)" onfocusout="myFocusOutNNP(this)">Prilagodba pristupačnosti</a>
+                </div>
+
+            </div>
+            <!-- SIDEBAR -->
+
+            <div class="clear"></div>
+
+        </div><!-- #class centered-->
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="info-footer">
+            <div id="left">
+                <p>Ministarstvo pravosuđa i uprave Republike Hrvatske</p>
+            </div>
+            <div id="right">
+                <p>IBM Hrvatska d.o.o.</p>
+            </div>
+        </div>
+    </footer>
+    <!--ak-->
+
+
+<div id="tiptip_holder" style="max-width:200px;"><div id="tiptip_arrow"><div id="tiptip_arrow_inner"></div></div><div id="tiptip_content"></div></div></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

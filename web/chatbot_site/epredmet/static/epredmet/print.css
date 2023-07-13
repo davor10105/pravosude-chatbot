@@ -1,0 +1,78 @@
+/* reset */
+
+html,body,div,span,applet,object,iframe,input,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot{
+		margin:0;
+		padding:0;
+		font-family: Verdana,'Times New Roman', Arial, sans-serif;
+	}
+	
+a{ text-decoration:none; cursor:pointer;}
+a:hover { text-decoration:underline; }
+a, a:hover, a:visited, a:link {color:#000;}	
+	
+/* typography */	
+	h1, h2, h3, h4, h5, h6{
+		font-weight:100;
+		font-family: Verdana,'Times New Roman', Arial, sans-serif;
+		color:#2a2a2a;
+	}
+	h2 {
+		font-weight: bold;
+		/* font-size:22px; */
+		/* line-height:24px; */
+	}
+	/* h4 {
+		 font-size:16px;
+		 line-height:20px; 
+	} */
+
+/* print quick styles */	
+	#content_p {
+		width:100%;
+		padding-left: 50px;
+	}
+	
+	.centered_p {
+		width:100%;
+		margin:auto;
+	}
+	
+	.main_p {
+		/*width:710px;*/
+		margin-bottom:70px;
+		padding-left:20px;
+		padding-right:20px;
+		position:bottom;
+		height:100%;
+		min-height:100%;
+	}	
+	
+/* grid and table formating */
+
+	.grid-1 {
+		padding-top: 15px;
+	}
+	.title-grid {
+		font-family: Verdana,'Times New Roman', Arial, sans-serif;
+		/* font-size:16px; */
+		font-weight: bold;
+	}
+	.content-gird {
+		margin-left: 30px;
+	}
+	
+	td,thead,tr,th{
+			height:18px;
+			text-align:left;
+			padding-left: 5px;
+			padding-right: 20px;
+			/* font-size:14px;	*/
+		}
+	td { 
+		/*width: 230px;*/ 
+		font-family: Verdana,'Times New Roman', Arial, sans-serif;
+	}
+
+	.print-it {
+		display: none;
+	}
