@@ -1,0 +1,34 @@
+!!e-Predmet
+INTENT Pronaći predmet
+ANSWER Zbog sigurnosnih razloga, u ovoj bazi podataka nije moguće pronaći kaznene i prekršajne maloljetničke predmete, predmete istrage i ratnih zločina te predmete iz nadležnosti USKOK-a.
+Zašto ne mogu pronaći predmet?
+INTENT Pronaći Z predmet
+ANSWER Zemljišnoknjižni predmeti nisu dostupni u ovoj bazi podataka, jer se vode u zasebnom sustavu te se oni mogu pratiti na poveznici https://oss.uredjenazemlja.hr/.
+Zašto ne mogu pronaći Z predmet?
+Zašto ne mogu pronaći Zemljišnoknjižni predmet?
+INTENT Informacije o predmetu
+ANSWER ePredmet je javna i besplatna usluga strankama, punomoćnicima i drugim zainteresiranim osobama  koje sudjeluju u sudskim postupcima, a obuhvaća predmete općinskih, županijskih, upravnih, trgovačkih sudova, Visokog prekršajnog suda, Visokog trgovačkog suda, Visokog upravnog suda, Visokog kaznenog suda i Vrhovnog suda RH. Na Internet stranici http://e-predmet.pravosudje.hr/?q=pretraga biranjem nadležnog suda sa padajućeg izbornika i upisom točnog broja predmeta, možete vidjeti status vašeg predmeta. Ministarstvo pravosuđa i uprave kao najviše tijelo za obavljanje pravosudne uprave osigurava samo tehničke preduvjete za javnu i besplatnu uslugu ePredmet. Svoje predmete sa svim detaljima i sadržajem pismena možete vidjeti i preko usluge eKomunikacija: https://usluge.pravosudje.hr/komunikacija-sa-sudom/. Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici: https://sudovi.hr/ Ako je predmet kod javnog bilježnika obratite se njemu. Popis svih Javnih bilježnika  sa njihovim kontaktima možete pronaći na stranici: https://www.hjk.hr/uredi
+Kakva je svrha sustava e-Predmet?
+Kako sustav e-Predmet funkcionira?
+Kakav je ovo sustav?
+INTENT Pojasniti o čemu se radi u mom predmetu
+ANSWER Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici: https://sudovi.hr Ako je predmet kod javnog bilježnika obratite se njemu. Popis svih Javnih bilježnika  sa njihovim kontaktima možete pronaći na stranici: https://www.hjk.hr/uredi
+Poštovani, možete mi pojasniti o čemu se radi u mom predmetu.Oznaka:Ovrv-76195/2022, Sud: Općinski građanski sud u Zagrebu
+INTENT Sadržaj predmeta
+ANSWER e-Predmet je usluga preko koje ne možete vidjeti sadržaj samog predmeta već popis radnji i pismena te osnovnih podataka o predmetu.
+Ne mogu vidjeti sadržaj?
+INTENT Krivo ispunjena CAPTCHA
+ANSWER Niste točno popunili sva polja. Provjerite upis još jednom. Ukoliko prijava ne prolazi dostavite sliku ekrana na mail adresu: e-predmet@mpu.hr
+Ne mogu upisati captchu
+CAPTCHA me sprječava da nastavim.
+Ne uspijevam proći verifikaciju CAPTCHA-om.
+Ne mogu proći verifikaciju zbog CAPTCHA-e.
+INTENT CAPTCHA ne funkcionira
+ANSWER Zahvaljujemo na prijavi. Poteškoću smo proslijedili programerima. Obavijestit ćemo vas nakon što zaprimimo odgovor programera.
+U sustavu e-građani Captcha za provjeru e-predmeta Ministarstva pravosuđa ne funkcionira. Stalno javlja da slijed brojeva i slova nije točno ispunjen, a ispunjen je jer nekoliko puta provjerim.Inače je taj sustav jako loš jer su slova teško čitljiva i vrlo često unatoč točnom upisu kombinacije brojeva i slova (više puta provjerenom ) sustav javlja da nije točno. Danas dodatno javlja da postoje neke poteškoće u funkcioniranju pa molim da se to popravi jer se radi o pravosudnim predmetima, konkretno o ovrhama, gdje zbog nefunkcionalnosti sustava neki ljudi mogu imati ozbiljnih problema.
+INTENT Žalba oko obavijesti
+ANSWER U ovom trenutku sustav je uređen na način da se obavijesti o svim promjenama u predmetu šalju svim strankama u postupku. U tijeku je projekt u sklopu kojeg će biti dorađena i mogućnost isključivanja obavijesti za određene predmete. Predviđeno trajanje projekta je do kraja 2024. godine, ali računamo da će ova funkcionalnost biti i ranije dostupna. U ovom trenutku Vam ne možemo reći preciznije kada će to biti.
+Ovim putem želim uložiti žalbu na rad vašeg sustava za slanje obavijesti putem korisničkog pretinca e-građana. Protiv nekoliko osoba u stambenoj zgradi gdje sam suvlasnik stana vodi se ovršni postupak. Putem m-pretinca informiran sam o svakoj promijeni u njihovom sudskom postupku. Kako bi se uvjerio radi li se o kakvom sudskom postupku protiv mene, svaki puta moram prolaziti iscrpan proces dio kojega je autentifikacija i pretipkavanja captcha-e. Dolje ispod teksta e-maila nalazi se snimak ekrana koji prikazuje dotične pristigle poruke.Sve to uzrokuje mi nepotreban dodatni stres i zatrpava mi sandučić u kojem mi je teško pronaći obavijesti upućene meni. Možete li molim Vas riješiti problem?
+INTENT Dodatna pitanja
+ANSWER Za sve dodatne informacije obratite se nadležnom sudu telefonom, pisanim podneskom na broj spisa ili osobnim odlaskom na sud u uredovno vrijeme za stranke. Kontakti sudova dostupni su na stranici https://sudovi.hr/
+Postovani, u osobnim porukama na portalu e-gradjani vidim poruke o izmjenama u nekom (meni nepoznatom) sudskom predmetu. Ne znam o kakvom se tu predmetu radi pa bih volio saznati. Kad kliknem na taj link otvori mi se predmet, ali opet ne uspijevam saznati o čemu se radi. Pokusao sam kliknuti na detalje e-komunikacije ali te stranice ne rade. Nisam dosad nikad imao nešto slično pa sam sad prilicno zabrinut. Kako mogu saznati o cemu se tu radi?

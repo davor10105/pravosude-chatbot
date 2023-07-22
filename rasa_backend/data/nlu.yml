@@ -1,203 +1,35 @@
 nlu:
 - examples: |
-    - e-Predmet - Zašto ne mogu pronaći predmet?
-  intent: 50f4dad7-c967-49a2-a9ba-425bb38d4050
+    - Zašto ne mogu pronaći predmet?
+  intent: Pronaći predmet
 - examples: |
-    - e-Predmet - Zašto ne mogu pronaći Z predmet?
-  intent: 4a5c3533-bcc0-436a-8af5-43c5953d53e3
+    - Zašto ne mogu pronaći Z predmet?
+    - Zašto ne mogu pronaći Zemljišnoknjižni predmet?
+  intent: Pronaći Z predmet
 - examples: |
-    - e-Predmet - Informacije o predmetu
-  intent: 522d0dfb-ad2a-4e91-b4b5-ce36d1c511a2
+    - Kakva je svrha sustava e-Predmet?
+    - Kako sustav e-Predmet funkcionira?
+    - Kakav je ovo sustav?
+  intent: Informacije o predmetu
 - examples: |
-    - e-Predmet - Kakva je svrha sustava e-Predmet?
-  intent: 4df892cc-2744-46cc-b294-ea2ce5495946
+    - 'Poštovani, možete mi pojasniti o čemu se radi u mom predmetu.Oznaka:Ovrv-76195/2022, Sud: Općinski građanski sud u Zagrebu'
+  intent: Pojasniti o čemu se radi u mom predmetu
 - examples: |
-    - e-Predmet - Kako sustav e-Predmet funkcionira?
-  intent: fa017b05-5598-46e4-af4d-2ba275775052
+    - Ne mogu vidjeti sadržaj?
+  intent: Sadržaj predmeta
 - examples: |
-    - 'e-Predmet - Poštovani, možete mi pojasniti o čemu se radi u mom predmetu.Oznaka:Ovrv-76195/2022, Sud: Općinski građanski sud u Zagrebu'
-  intent: 2127151b-65b5-4fe3-ade3-35ac1d3f7e77
+    - Ne mogu upisati captchu
+    - CAPTCHA me sprječava da nastavim.
+    - Ne uspijevam proći verifikaciju CAPTCHA-om.
+    - Ne mogu proći verifikaciju zbog CAPTCHA-e.
+  intent: Krivo ispunjena CAPTCHA
 - examples: |
-    - e-Predmet - Ne mogu vidjeti sadržaj?
-  intent: d0e5693e-0b38-4aff-9ffc-d8c5607bbc33
+    - U sustavu e-građani Captcha za provjeru e-predmeta Ministarstva pravosuđa ne funkcionira. Stalno javlja da slijed brojeva i slova nije točno ispunjen, a ispunjen je jer nekoliko puta provjerim.Inače je taj sustav jako loš jer su slova teško čitljiva i vrlo često unatoč točnom upisu kombinacije brojeva i slova (više puta provjerenom ) sustav javlja da nije točno. Danas dodatno javlja da postoje neke poteškoće u funkcioniranju pa molim da se to popravi jer se radi o pravosudnim predmetima, konkretno o ovrhama, gdje zbog nefunkcionalnosti sustava neki ljudi mogu imati ozbiljnih problema.
+  intent: CAPTCHA ne funkcionira
 - examples: |
-    - e-Predmet - Ne mogu upisati captchu
-  intent: 9f498fa1-cb13-4520-983a-7676f8b98708
+    - Ovim putem želim uložiti žalbu na rad vašeg sustava za slanje obavijesti putem korisničkog pretinca e-građana. Protiv nekoliko osoba u stambenoj zgradi gdje sam suvlasnik stana vodi se ovršni postupak. Putem m-pretinca informiran sam o svakoj promijeni u njihovom sudskom postupku. Kako bi se uvjerio radi li se o kakvom sudskom postupku protiv mene, svaki puta moram prolaziti iscrpan proces dio kojega je autentifikacija i pretipkavanja captcha-e. Dolje ispod teksta e-maila nalazi se snimak ekrana koji prikazuje dotične pristigle poruke.Sve to uzrokuje mi nepotreban dodatni stres i zatrpava mi sandučić u kojem mi je teško pronaći obavijesti upućene meni. Možete li molim Vas riješiti problem?
+  intent: Žalba oko obavijesti
 - examples: |
-    - e-Predmet - CAPTCHA me sprječava da nastavim.
-  intent: 36594d13-0ecd-4daa-bd39-203c9b419626
-- examples: |
-    - e-Predmet - Ne uspijevam proći verifikaciju CAPTCHA-om.
-  intent: 416d68a7-1560-406c-b675-032550e236ad
-- examples: |
-    - e-Predmet - Ne mogu proći verifikaciju zbog CAPTCHA-e.
-  intent: e6372705-5a7d-4172-bc2b-8bd520692f47
-- examples: |
-    - e-Predmet - U sustavu e-građani Captcha za provjeru e-predmeta Ministarstva pravosuđa ne funkcionira. Stalno javlja da slijed brojeva i slova nije točno ispunjen, a ispunjen je jer nekoliko puta provjerim.Inače je taj sustav jako loš jer su slova teško čitljiva i vrlo često unatoč točnom upisu kombinacije brojeva i slova (više puta provjerenom ) sustav javlja da nije točno. Danas dodatno javlja da postoje neke poteškoće u funkcioniranju pa molim da se to popravi jer se radi o pravosudnim predmetima, konkretno o ovrhama, gdje zbog nefunkcionalnosti sustava neki ljudi mogu imati ozbiljnih problema.
-  intent: 144783ab-c4eb-4555-ad62-fb337dcb0361
-- examples: |
-    - e-Predmet - Ovim putem želim uložiti žalbu na rad vašeg sustava za slanje obavijesti putem korisničkog pretinca e-građana. Protiv nekoliko osoba u stambenoj zgradi gdje sam suvlasnik stana vodi se ovršni postupak. Putem m-pretinca informiran sam o svakoj promijeni u njihovom sudskom postupku. Kako bi se uvjerio radi li se o kakvom sudskom postupku protiv mene, svaki puta moram prolaziti iscrpan proces dio kojega je autentifikacija i pretipkavanja captcha-e. Dolje ispod teksta e-maila nalazi se snimak ekrana koji prikazuje dotične pristigle poruke.Sve to uzrokuje mi nepotreban dodatni stres i zatrpava mi sandučić u kojem mi je teško pronaći obavijesti upućene meni. Možete li molim Vas riješiti problem?
-  intent: c4ccc357-a7fc-4895-8110-0280505d9c72
-- examples: |
-    - e-Predmet - Postovani, u osobnim porukama na portalu e-gradjani vidim poruke o izmjenama u nekom (meni nepoznatom) sudskom predmetu. Ne znam o kakvom se tu predmetu radi pa bih volio saznati. Kad kliknem na taj link otvori mi se predmet, ali opet ne uspijevam saznati o čemu se radi. Pokusao sam kliknuti na detalje e-komunikacije ali te stranice ne rade. Nisam dosad nikad imao nešto slično pa sam sad prilicno zabrinut. Kako mogu saznati o cemu se tu radi?
-  intent: 8fd58244-8baf-420d-86c5-5a6649c46466
-- examples: |
-    - e-Ovrhe - Prije određenog vremena izradio sam prijedlog za ovrhu i uputio ga sudu. Danas mi je stiglo rješenje javnog bilježnika kojim me poziva na ispravak prijedloga za ovrhu na način da kod ovrhovoditelja naznačim zakonskog zastupnika. Ljubazno Vas molim informaciju na koji način mogu urediti već poslani PDF (prijedlog za ovrhu) bez da izradim novi, i poslati ga javnom bilježniku. Kako izraditi ispravak ovršnog prijedloga?
-  intent: b9fdc3b2-75c7-4389-b962-7d987d83889a
-- examples: |
-    - e-Ovrhe - Kako izraditi ispravak ovršnog prijedloga?
-  intent: 3eecc832-067f-4f67-8cc7-6df74f4c363d
-- examples: |
-    - e-Ovrhe - Koje su smjernice za izradu ispravka ovršnog prijedloga?
-  intent: 0885377f-5595-4f52-9a7e-dcab7034d753
-- examples: |
-    - e-Ovrhe - Koji su koraci za izradu ispravka ovršnog prijedloga?
-  intent: bd0323aa-c4e8-47d5-99d8-0ccb1935ffb3
-- examples: |
-    - e-Ovrhe - Možete li me uputiti kako napraviti ispravak ovršnog prijedloga?
-  intent: 20d62739-d6b4-40c4-ba1d-f33048c19ab2
-- examples: |
-    - e-Ovrhe - Imam problem sa potpisivanjem prijedloga za ovrhu! U fini je sve u redu i odgovorili su da provjerim sa servisom na kojem potpisujem.
-  intent: cc92af9c-ae54-4423-9bcb-e15be2ccf13e
-- examples: |
-    - 'e-Ovrhe - Zahtjev 59257-2023 je uredno kreiran temeljem predanog prijedloga 63367-2023, no kod predaje zahtjeva FINA-i i pregleda prije predaje javlja se opis greške: Zahtjev sadrži greške navedene u nastavku. Popis grešaka Prijedlog 63367-2023 - 3436 - Predmet ovrhe treba biti Ovrha općenito na imovini ili Novčana tražbina po računu kod banke. - Ovršenik sa rednim brojem 1. Molim Vas uputu što trebamo učiniti kako bi mogli predati zahtjev bez greške ili nas uputite kome da se javimo.'
-  intent: 06f8f4a6-c68c-4b4e-aa92-10067681b4ac
-- examples: |
-    - e-Ovrhe - Na koji način se u sustavu e-ovrhe može povući prijedlog za ovrhu, koji smo greškom uputili u sustav?
-  intent: 719634da-b368-43fe-8020-3962e0b8dd4d
-- examples: |
-    - e-Ovrhe - Kako se mogu prijaviti na sustav e-Ovrhe da predam prijedlog u ime tvrtke?
-  intent: 76ed7c8f-913b-4eba-a7fd-f2f042efa745
-- examples: |
-    - 'e-Ovrhe - U predmetu u kojem je naša stranka HEP ELEKTRA d.o.o. c/a MIRJANA RUPČIĆ, OIB: 24187617518, LIGANJ 46, Liganj, SILVIA ĐIPALO, OIB: 62163392078, CESTA LOVRANSKA DRAGA 4,  Jedinstveni identifikator prijedloga: 50899-2023, Sudski predmet: Ovrv-1839/2023, Javnobilježnički predmet: UPP/OS-Ovrv-80/2023, javni bilježnik nam je dostavio rješenje kojim je zatražio ispravak prijedloga za ovrhu na način da treba dodati i trošak daljnjih dostava budući da su dva ovršenika. Obzirom da u aplikaciji e-ovrhe nemamo mogućnost u navedenom predmetu dodati trošak daljnjih dostava, molimo vas uputu za postupanje.'
-  intent: ac052e91-50d1-4ab6-8bbf-d81fa9532616
-- examples: |
-    - Registar nesolventnosti - Što je registar nesolventnosti?
-  intent: b81656cb-aebf-440f-ba55-fe3c34b281da
-- examples: |
-    - Registar nesolventnosti - Kako mogu dobiti informacije o postupku?
-  intent: b01089ef-28b5-45c0-9e7f-8c1944d69623
-- examples: |
-    - Registar nesolventnosti - Koji podaci se objavljuju u registru?
-  intent: 1eec279c-c413-44c9-9e4b-3b7d0a42ccd0
-- examples: |
-    - Registar nesolventnosti - Koji podaci o nesolventnosti se objavljuju u registru?
-  intent: 6831cb8f-1559-46d1-8c0d-eb9f370954fd
-- examples: |
-    - Registar nesolventnosti - Zašto se objavljuju moji podaci?
-  intent: bb218628-2cd6-41fa-b0f1-6085c9a7e103
-- examples: |
-    - Registar nesolventnosti - Zašto se objavljuju moji osobni podaci?
-  intent: 6adbf164-4533-4e7c-b2b4-be2f05babc90
-- examples: |
-    - Registar nesolventnosti - Zašto se objavljuju osobni podaci?
-  intent: b5a3b802-733b-454a-9f86-62c90f0df904
-- examples: |
-    - Registar nesolventnosti - Zašto se javno objavljuju moji podaci?
-  intent: dde80e60-51dd-4fc8-a9c9-9e8cf1fa0b95
-- examples: |
-    - Registar nesolventnosti - Zašto se javno objavljuju moji osobni podaci?
-  intent: 022ef170-2e61-4f21-aa9a-44c7d6819d8c
-- examples: |
-    - Registar nesolventnosti - Odakle Vam pravo da javno objavljujete moje podatke?
-  intent: 215127f6-944b-4b46-8e87-7f1940fee5be
-- examples: |
-    - Registar nesolventnosti - Objavili ste moje podatke.
-  intent: 25059497-60ae-4739-b6b4-4d04bc40bd64
-- examples: |
-    - Registar nesolventnosti - Objavili ste naše podatke.
-  intent: aac2be5a-5da9-4a63-8910-135347b5935e
-- examples: |
-    - Registar nesolventnosti - Kako radi pretraživanje?
-  intent: 7750fb16-1bd3-4ee9-afc9-b64cb23307da
-- examples: |
-    - Registar nesolventnosti - Molim upute.
-  intent: adfefae3-5b84-4784-888b-896ecae34a0f
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po imenu osobe?
-  intent: 887b0d48-618d-44bb-9c2e-c8c23c23b881
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po imenu tvrtke?
-  intent: 76f453fb-700d-422b-b5f9-a1eb3528dc02
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po imenu firme?
-  intent: cf6042d9-5e87-47e6-bc35-7c2e7afe7b23
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po imenu pravne osobe?
-  intent: d67e9614-1920-4505-98b8-6a305f87e7d2
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po nazivu / imenu pravne ili fizičke osobe?
-  intent: 75a57e56-a332-463f-9429-63a6ec79e83c
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po nazivu pravne ili fizičke osobe?
-  intent: 128a08bd-2a09-4cec-ba64-3817a3c22809
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po OIB-u?
-  intent: 9fabaa4d-5df5-4601-9730-365b0f01e04f
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po MBS-u?
-  intent: c99c0206-d11e-4518-968b-7a06fca121c4
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po sudu?
-  intent: 1f424190-5096-43d5-aba4-33399a3501ec
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po vremenu?
-  intent: e24d2441-f15c-4a88-8eb7-cafc8b8a9ff9
-- examples: |
-    - Registar nesolventnosti - Mogu li pretraživati po vremenskom razdoblju?
-  intent: ea2c8809-d443-4843-a3a0-916be4276113
-- examples: |
-    - Registar nesolventnosti - Koliko rezultata se prikazuje?
-  intent: 1e50f231-9446-4396-a562-3d39e027be92
-- examples: |
-    - Registar nesolventnosti - Zašto mi ne radi pretraživanje?
-  intent: 65079fb3-4c89-4f35-a5cd-ee8e91fdc8e4
-- examples: |
-    - Registar nesolventnosti - Zašto ne dobivam rezultate?
-  intent: ee8d1b6e-d796-4294-8dde-3cc6533eaa79
-- examples: |
-    - Registar nesolventnosti - Što fali mom upitu?
-  intent: 66bb52cf-8567-4c53-9014-b15ba5e23bd9
-- examples: |
-    - Registar nesolventnosti - Što nedostaje mojem upite?
-  intent: 1220e877-42aa-492b-8b74-909d4b86c5fa
-- examples: |
-    - Registar nesolventnosti - Gdje se registriram?
-  intent: f2ed8d1a-9e58-4aff-9ae2-a089c92ac36b
-- examples: |
-    - Registar nesolventnosti - Koliko košta upit?
-  intent: 4fd1ffd2-6c2a-4383-a3a9-be3443fbf904
-- examples: |
-    - Registar nesolventnosti - Kako se plaća pristup?
-  intent: 63cd143f-e1d9-497a-aadd-f9b0b20183a6
-- examples: |
-    - Registar nesolventnosti - Registar ne radi.
-  intent: 3aee5e1b-be59-4260-ad16-10b6221ab35c
-- examples: |
-    - Registar nesolventnosti - Ne vidim rezultate.
-  intent: 6ac986a6-159d-4397-b954-13095cf1d8f7
-- examples: |
-    - Registar nesolventnosti - Ne mogu pročitati.
-  intent: 874bf2f0-1519-41b8-be2f-35969babf217
-- examples: |
-    - Registar nesolventnosti - Mogu li povećati slova?
-  intent: 68003f90-34c0-4882-9a49-abe5f57e390b
-- examples: |
-    - Registar nesolventnosti - Ne vidim pročitati.
-  intent: 3f7ae3bc-3c0e-4b88-9c68-5ed46e2dcab7
-- examples: |
-    - Registar nesolventnosti - Gdje Vam je izjava o pristupačnosti?
-  intent: e9d721c1-ffa2-4d4d-a30a-b6556d1f0ebc
-- examples: |
-    - Registar nesolventnosti - Nije baš pristupačan.
-  intent: fb9f541c-8020-4fa5-ba0f-349c6836a343
-- examples: |
-    - Registar nesolventnosti - Želim kontakt tehničke podrške.
-  intent: 641e32cd-cf1e-4a8d-912f-e32a3551acbf
-- examples: |
-    - Registar nesolventnosti - Gdje su kontakti?
-  intent: f897153e-2ec2-438a-a69d-8b53af3ec0aa
-- examples: |
-    - Registar nesolventnosti - Tko je zadužen za ovu stranicu?
-  intent: df9eaa75-3898-44e8-b7a7-d3c1ad84ffb2
+    - Postovani, u osobnim porukama na portalu e-gradjani vidim poruke o izmjenama u nekom (meni nepoznatom) sudskom predmetu. Ne znam o kakvom se tu predmetu radi pa bih volio saznati. Kad kliknem na taj link otvori mi se predmet, ali opet ne uspijevam saznati o čemu se radi. Pokusao sam kliknuti na detalje e-komunikacije ali te stranice ne rade. Nisam dosad nikad imao nešto slično pa sam sad prilicno zabrinut. Kako mogu saznati o cemu se tu radi?
+  intent: Dodatna pitanja
 version: '3.1'

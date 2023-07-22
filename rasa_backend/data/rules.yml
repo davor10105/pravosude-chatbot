@@ -1,270 +1,38 @@
 rules:
 - rule: '0'
   steps:
-  - intent: 50f4dad7-c967-49a2-a9ba-425bb38d4050
-  - action: utter_50f4dad7-c967-49a2-a9ba-425bb38d4050
+  - intent: Pronaći predmet
+  - action: utter_Pronaći predmet
 - rule: '1'
   steps:
-  - intent: 4a5c3533-bcc0-436a-8af5-43c5953d53e3
-  - action: utter_4a5c3533-bcc0-436a-8af5-43c5953d53e3
+  - intent: Pronaći Z predmet
+  - action: utter_Pronaći Z predmet
 - rule: '2'
   steps:
-  - intent: 522d0dfb-ad2a-4e91-b4b5-ce36d1c511a2
-  - action: utter_522d0dfb-ad2a-4e91-b4b5-ce36d1c511a2
+  - intent: Informacije o predmetu
+  - action: utter_Informacije o predmetu
 - rule: '3'
   steps:
-  - intent: 4df892cc-2744-46cc-b294-ea2ce5495946
-  - action: utter_4df892cc-2744-46cc-b294-ea2ce5495946
+  - intent: Pojasniti o čemu se radi u mom predmetu
+  - action: utter_Pojasniti o čemu se radi u mom predmetu
 - rule: '4'
   steps:
-  - intent: fa017b05-5598-46e4-af4d-2ba275775052
-  - action: utter_fa017b05-5598-46e4-af4d-2ba275775052
+  - intent: Sadržaj predmeta
+  - action: utter_Sadržaj predmeta
 - rule: '5'
   steps:
-  - intent: 2127151b-65b5-4fe3-ade3-35ac1d3f7e77
-  - action: utter_2127151b-65b5-4fe3-ade3-35ac1d3f7e77
+  - intent: Krivo ispunjena CAPTCHA
+  - action: utter_Krivo ispunjena CAPTCHA
 - rule: '6'
   steps:
-  - intent: d0e5693e-0b38-4aff-9ffc-d8c5607bbc33
-  - action: utter_d0e5693e-0b38-4aff-9ffc-d8c5607bbc33
+  - intent: CAPTCHA ne funkcionira
+  - action: utter_CAPTCHA ne funkcionira
 - rule: '7'
   steps:
-  - intent: 9f498fa1-cb13-4520-983a-7676f8b98708
-  - action: utter_9f498fa1-cb13-4520-983a-7676f8b98708
+  - intent: Žalba oko obavijesti
+  - action: utter_Žalba oko obavijesti
 - rule: '8'
   steps:
-  - intent: 36594d13-0ecd-4daa-bd39-203c9b419626
-  - action: utter_36594d13-0ecd-4daa-bd39-203c9b419626
-- rule: '9'
-  steps:
-  - intent: 416d68a7-1560-406c-b675-032550e236ad
-  - action: utter_416d68a7-1560-406c-b675-032550e236ad
-- rule: '10'
-  steps:
-  - intent: e6372705-5a7d-4172-bc2b-8bd520692f47
-  - action: utter_e6372705-5a7d-4172-bc2b-8bd520692f47
-- rule: '11'
-  steps:
-  - intent: 144783ab-c4eb-4555-ad62-fb337dcb0361
-  - action: utter_144783ab-c4eb-4555-ad62-fb337dcb0361
-- rule: '12'
-  steps:
-  - intent: c4ccc357-a7fc-4895-8110-0280505d9c72
-  - action: utter_c4ccc357-a7fc-4895-8110-0280505d9c72
-- rule: '13'
-  steps:
-  - intent: 8fd58244-8baf-420d-86c5-5a6649c46466
-  - action: utter_8fd58244-8baf-420d-86c5-5a6649c46466
-- rule: '14'
-  steps:
-  - intent: b9fdc3b2-75c7-4389-b962-7d987d83889a
-  - action: utter_b9fdc3b2-75c7-4389-b962-7d987d83889a
-- rule: '15'
-  steps:
-  - intent: 3eecc832-067f-4f67-8cc7-6df74f4c363d
-  - action: utter_3eecc832-067f-4f67-8cc7-6df74f4c363d
-- rule: '16'
-  steps:
-  - intent: 0885377f-5595-4f52-9a7e-dcab7034d753
-  - action: utter_0885377f-5595-4f52-9a7e-dcab7034d753
-- rule: '17'
-  steps:
-  - intent: bd0323aa-c4e8-47d5-99d8-0ccb1935ffb3
-  - action: utter_bd0323aa-c4e8-47d5-99d8-0ccb1935ffb3
-- rule: '18'
-  steps:
-  - intent: 20d62739-d6b4-40c4-ba1d-f33048c19ab2
-  - action: utter_20d62739-d6b4-40c4-ba1d-f33048c19ab2
-- rule: '19'
-  steps:
-  - intent: cc92af9c-ae54-4423-9bcb-e15be2ccf13e
-  - action: utter_cc92af9c-ae54-4423-9bcb-e15be2ccf13e
-- rule: '20'
-  steps:
-  - intent: 06f8f4a6-c68c-4b4e-aa92-10067681b4ac
-  - action: utter_06f8f4a6-c68c-4b4e-aa92-10067681b4ac
-- rule: '21'
-  steps:
-  - intent: 719634da-b368-43fe-8020-3962e0b8dd4d
-  - action: utter_719634da-b368-43fe-8020-3962e0b8dd4d
-- rule: '22'
-  steps:
-  - intent: 76ed7c8f-913b-4eba-a7fd-f2f042efa745
-  - action: utter_76ed7c8f-913b-4eba-a7fd-f2f042efa745
-- rule: '23'
-  steps:
-  - intent: ac052e91-50d1-4ab6-8bbf-d81fa9532616
-  - action: utter_ac052e91-50d1-4ab6-8bbf-d81fa9532616
-- rule: '24'
-  steps:
-  - intent: b81656cb-aebf-440f-ba55-fe3c34b281da
-  - action: utter_b81656cb-aebf-440f-ba55-fe3c34b281da
-- rule: '25'
-  steps:
-  - intent: b01089ef-28b5-45c0-9e7f-8c1944d69623
-  - action: utter_b01089ef-28b5-45c0-9e7f-8c1944d69623
-- rule: '26'
-  steps:
-  - intent: 1eec279c-c413-44c9-9e4b-3b7d0a42ccd0
-  - action: utter_1eec279c-c413-44c9-9e4b-3b7d0a42ccd0
-- rule: '27'
-  steps:
-  - intent: 6831cb8f-1559-46d1-8c0d-eb9f370954fd
-  - action: utter_6831cb8f-1559-46d1-8c0d-eb9f370954fd
-- rule: '28'
-  steps:
-  - intent: bb218628-2cd6-41fa-b0f1-6085c9a7e103
-  - action: utter_bb218628-2cd6-41fa-b0f1-6085c9a7e103
-- rule: '29'
-  steps:
-  - intent: 6adbf164-4533-4e7c-b2b4-be2f05babc90
-  - action: utter_6adbf164-4533-4e7c-b2b4-be2f05babc90
-- rule: '30'
-  steps:
-  - intent: b5a3b802-733b-454a-9f86-62c90f0df904
-  - action: utter_b5a3b802-733b-454a-9f86-62c90f0df904
-- rule: '31'
-  steps:
-  - intent: dde80e60-51dd-4fc8-a9c9-9e8cf1fa0b95
-  - action: utter_dde80e60-51dd-4fc8-a9c9-9e8cf1fa0b95
-- rule: '32'
-  steps:
-  - intent: 022ef170-2e61-4f21-aa9a-44c7d6819d8c
-  - action: utter_022ef170-2e61-4f21-aa9a-44c7d6819d8c
-- rule: '33'
-  steps:
-  - intent: 215127f6-944b-4b46-8e87-7f1940fee5be
-  - action: utter_215127f6-944b-4b46-8e87-7f1940fee5be
-- rule: '34'
-  steps:
-  - intent: 25059497-60ae-4739-b6b4-4d04bc40bd64
-  - action: utter_25059497-60ae-4739-b6b4-4d04bc40bd64
-- rule: '35'
-  steps:
-  - intent: aac2be5a-5da9-4a63-8910-135347b5935e
-  - action: utter_aac2be5a-5da9-4a63-8910-135347b5935e
-- rule: '36'
-  steps:
-  - intent: 7750fb16-1bd3-4ee9-afc9-b64cb23307da
-  - action: utter_7750fb16-1bd3-4ee9-afc9-b64cb23307da
-- rule: '37'
-  steps:
-  - intent: adfefae3-5b84-4784-888b-896ecae34a0f
-  - action: utter_adfefae3-5b84-4784-888b-896ecae34a0f
-- rule: '38'
-  steps:
-  - intent: 887b0d48-618d-44bb-9c2e-c8c23c23b881
-  - action: utter_887b0d48-618d-44bb-9c2e-c8c23c23b881
-- rule: '39'
-  steps:
-  - intent: 76f453fb-700d-422b-b5f9-a1eb3528dc02
-  - action: utter_76f453fb-700d-422b-b5f9-a1eb3528dc02
-- rule: '40'
-  steps:
-  - intent: cf6042d9-5e87-47e6-bc35-7c2e7afe7b23
-  - action: utter_cf6042d9-5e87-47e6-bc35-7c2e7afe7b23
-- rule: '41'
-  steps:
-  - intent: d67e9614-1920-4505-98b8-6a305f87e7d2
-  - action: utter_d67e9614-1920-4505-98b8-6a305f87e7d2
-- rule: '42'
-  steps:
-  - intent: 75a57e56-a332-463f-9429-63a6ec79e83c
-  - action: utter_75a57e56-a332-463f-9429-63a6ec79e83c
-- rule: '43'
-  steps:
-  - intent: 128a08bd-2a09-4cec-ba64-3817a3c22809
-  - action: utter_128a08bd-2a09-4cec-ba64-3817a3c22809
-- rule: '44'
-  steps:
-  - intent: 9fabaa4d-5df5-4601-9730-365b0f01e04f
-  - action: utter_9fabaa4d-5df5-4601-9730-365b0f01e04f
-- rule: '45'
-  steps:
-  - intent: c99c0206-d11e-4518-968b-7a06fca121c4
-  - action: utter_c99c0206-d11e-4518-968b-7a06fca121c4
-- rule: '46'
-  steps:
-  - intent: 1f424190-5096-43d5-aba4-33399a3501ec
-  - action: utter_1f424190-5096-43d5-aba4-33399a3501ec
-- rule: '47'
-  steps:
-  - intent: e24d2441-f15c-4a88-8eb7-cafc8b8a9ff9
-  - action: utter_e24d2441-f15c-4a88-8eb7-cafc8b8a9ff9
-- rule: '48'
-  steps:
-  - intent: ea2c8809-d443-4843-a3a0-916be4276113
-  - action: utter_ea2c8809-d443-4843-a3a0-916be4276113
-- rule: '49'
-  steps:
-  - intent: 1e50f231-9446-4396-a562-3d39e027be92
-  - action: utter_1e50f231-9446-4396-a562-3d39e027be92
-- rule: '50'
-  steps:
-  - intent: 65079fb3-4c89-4f35-a5cd-ee8e91fdc8e4
-  - action: utter_65079fb3-4c89-4f35-a5cd-ee8e91fdc8e4
-- rule: '51'
-  steps:
-  - intent: ee8d1b6e-d796-4294-8dde-3cc6533eaa79
-  - action: utter_ee8d1b6e-d796-4294-8dde-3cc6533eaa79
-- rule: '52'
-  steps:
-  - intent: 66bb52cf-8567-4c53-9014-b15ba5e23bd9
-  - action: utter_66bb52cf-8567-4c53-9014-b15ba5e23bd9
-- rule: '53'
-  steps:
-  - intent: 1220e877-42aa-492b-8b74-909d4b86c5fa
-  - action: utter_1220e877-42aa-492b-8b74-909d4b86c5fa
-- rule: '54'
-  steps:
-  - intent: f2ed8d1a-9e58-4aff-9ae2-a089c92ac36b
-  - action: utter_f2ed8d1a-9e58-4aff-9ae2-a089c92ac36b
-- rule: '55'
-  steps:
-  - intent: 4fd1ffd2-6c2a-4383-a3a9-be3443fbf904
-  - action: utter_4fd1ffd2-6c2a-4383-a3a9-be3443fbf904
-- rule: '56'
-  steps:
-  - intent: 63cd143f-e1d9-497a-aadd-f9b0b20183a6
-  - action: utter_63cd143f-e1d9-497a-aadd-f9b0b20183a6
-- rule: '57'
-  steps:
-  - intent: 3aee5e1b-be59-4260-ad16-10b6221ab35c
-  - action: utter_3aee5e1b-be59-4260-ad16-10b6221ab35c
-- rule: '58'
-  steps:
-  - intent: 6ac986a6-159d-4397-b954-13095cf1d8f7
-  - action: utter_6ac986a6-159d-4397-b954-13095cf1d8f7
-- rule: '59'
-  steps:
-  - intent: 874bf2f0-1519-41b8-be2f-35969babf217
-  - action: utter_874bf2f0-1519-41b8-be2f-35969babf217
-- rule: '60'
-  steps:
-  - intent: 68003f90-34c0-4882-9a49-abe5f57e390b
-  - action: utter_68003f90-34c0-4882-9a49-abe5f57e390b
-- rule: '61'
-  steps:
-  - intent: 3f7ae3bc-3c0e-4b88-9c68-5ed46e2dcab7
-  - action: utter_3f7ae3bc-3c0e-4b88-9c68-5ed46e2dcab7
-- rule: '62'
-  steps:
-  - intent: e9d721c1-ffa2-4d4d-a30a-b6556d1f0ebc
-  - action: utter_e9d721c1-ffa2-4d4d-a30a-b6556d1f0ebc
-- rule: '63'
-  steps:
-  - intent: fb9f541c-8020-4fa5-ba0f-349c6836a343
-  - action: utter_fb9f541c-8020-4fa5-ba0f-349c6836a343
-- rule: '64'
-  steps:
-  - intent: 641e32cd-cf1e-4a8d-912f-e32a3551acbf
-  - action: utter_641e32cd-cf1e-4a8d-912f-e32a3551acbf
-- rule: '65'
-  steps:
-  - intent: f897153e-2ec2-438a-a69d-8b53af3ec0aa
-  - action: utter_f897153e-2ec2-438a-a69d-8b53af3ec0aa
-- rule: '66'
-  steps:
-  - intent: df9eaa75-3898-44e8-b7a7-d3c1ad84ffb2
-  - action: utter_df9eaa75-3898-44e8-b7a7-d3c1ad84ffb2
+  - intent: Dodatna pitanja
+  - action: utter_Dodatna pitanja
 version: '3.1'

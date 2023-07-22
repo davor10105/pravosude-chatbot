@@ -16,8 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from epredmet.admin import epredmet_annotation_admin_site
 
 urlpatterns = [
-    path('epredmet/', include('epredmet.urls')),
-    path('admin/', admin.site.urls),
+    path("epredmet/", include("epredmet.urls")),
+    path("epredmet/annotation", epredmet_annotation_admin_site.urls),
+    path("admin/", admin.site.urls),
 ]
